@@ -1,0 +1,48 @@
+{
+  "social": {
+    "threads": {
+      "username": "aba",
+      "url": "https://www.threads.net/@aba",
+      "displayName": "@aba"
+    }
+  },
+  "myApps": [
+    {
+      "id": "sushiro-calculator",
+      "name": {
+        "en": "Sushiro Calculator",
+        "zh-HK": "壽司郎計算機",
+        "ja": "スシロー計算機"
+      },
+      "description": {
+        "en": "Plan your perfect Sushiro meal budget",
+        "zh-HK": "規劃完美的壽司郎用餐預算",
+        "ja": "完璧なスシロー食事予算を計画"
+      },
+      "icon": "🍣",
+      "current": true
+    },
+    {
+      "id": "hk-bus-tracker",
+      "name": {
+        "en": "HK Bus Tracker",
+        "zh-HK": "香港巴士追蹤器",
+        "ja": "香港バストラッカー"
+      },
+      "description": {
+        "en": "Never miss a bus. Real-time predictions.",
+        "zh-HK": "永遠不會錯過巴士。即時預計。",
+        "ja": "バスを逃さない。リアルタイム予測。"
+      },
+      "icon": "🚌",
+      "appStore": {
+        "ios": "https://apps.apple.com/app/hk-bus-tracker/id123456789",
+        "android": "https://play.google.com/store/apps/details?id=com.example.hkbustracker"
+      }
+    }
+  ],
+  "features": {
+    "showMoreApps": true,
+    "showThreadsLink": true
+  }
+}
