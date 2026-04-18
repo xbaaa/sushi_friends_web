@@ -60,20 +60,21 @@ const TRANSLATIONS = {
           title: "Information We Collect",
           content: "We collect the following types of information:",
           items: [
-            "Usage data: Information about how you use the app",
-            "Device information: Device type, operating system, and unique identifiers",
-            "Analytics data: App performance and crash reports",
-            "Optional data: Information you choose to provide"
+            "Coarse location data used for third-party advertising",
+            "Device identifiers used for advertising and analytics",
+            "Product interaction data used for advertising and analytics",
+            "Advertising data related to ads shown in the app",
+            "Crash data and performance data used for app functionality"
           ]
         },
         dataUsage: {
           title: "How We Use Your Information",
           content: "We use the collected information to:",
           items: [
-            "Provide and maintain our service",
-            "Improve user experience",
-            "Analyze app usage and performance",
-            "Send important updates and notifications",
+            "Display third-party advertising through Google AdMob",
+            "Measure ad-related performance and interaction",
+            "Maintain app stability and performance",
+            "Diagnose crashes and technical issues",
             "Comply with legal obligations"
           ]
         },
@@ -81,8 +82,8 @@ const TRANSLATIONS = {
           title: "Data Sharing",
           content: "We do not sell your personal information. We may share data with:",
           items: [
+            "Advertising partners such as Google AdMob",
             "Service providers who assist in app operations",
-            "Advertising partners (Google AdMob)",
             "Legal authorities when required by law"
           ]
         },
@@ -276,20 +277,21 @@ const TRANSLATIONS = {
           title: "収集する情報",
           content: "以下の種類の情報を収集します：",
           items: [
-            "使用データ：アプリの使用方法に関する情報",
-            "デバイス情報：デバイスの種類、オペレーティングシステム、固有識別子",
-            "分析データ：アプリのパフォーマンスとクラッシュレポート",
-            "オプションデータ：ユーザーが提供することを選択した情報"
+            "第三者広告のために使用されるおおよその位置情報",
+            "広告および分析に使用されるデバイス識別子",
+            "広告および分析に使用されるプロダクト操作情報",
+            "アプリ内で表示される広告に関する広告データ",
+            "アプリ機能向上のためのクラッシュデータとパフォーマンスデータ"
           ]
         },
         dataUsage: {
           title: "情報の使用方法",
           content: "収集した情報は以下の目的で使用します：",
           items: [
-            "サービスの提供と維持",
-            "ユーザーエクスペリエンスの向上",
-            "アプリの使用状況とパフォーマンスの分析",
-            "重要な更新と通知の送信",
+            "Google AdMob を通じた第三者広告の表示",
+            "広告関連のパフォーマンスや操作の測定",
+            "アプリの安定性とパフォーマンスの維持",
+            "クラッシュや技術的問題の診断",
             "法的義務の遵守"
           ]
         },
@@ -297,8 +299,8 @@ const TRANSLATIONS = {
           title: "データの共有",
           content: "個人情報を販売することはありません。以下の場合にデータを共有することがあります：",
           items: [
+            "Google AdMob などの広告配信パートナー",
             "アプリ運営を支援するサービスプロバイダー",
-            "広告配信パートナー（Google AdMob）",
             "法律で要求される場合の法的機関"
           ]
         },
@@ -492,20 +494,21 @@ const TRANSLATIONS = {
           title: "我們收集的資訊",
           content: "我們收集以下類型的資訊：",
           items: [
-            "使用資料：關於您如何使用應用程式的資訊",
-            "裝置資訊：裝置類型、作業系統和唯一識別碼",
-            "分析資料：應用程式效能和崩潰報告",
-            "選擇性資料：您選擇提供的資訊"
+            "用於第三方廣告的粗略位置資訊",
+            "用於廣告與分析的裝置識別碼",
+            "用於廣告與分析的產品互動資料",
+            "與應用程式內廣告顯示相關的廣告資料",
+            "用於維持應用功能的崩潰資料與效能資料"
           ]
         },
         dataUsage: {
           title: "我們如何使用您的資訊",
           content: "我們使用收集的資訊來：",
           items: [
-            "提供和維護我們的服務",
-            "改善使用者體驗",
-            "分析應用程式使用情況和效能",
-            "發送重要更新和通知",
+            "透過 Google AdMob 顯示第三方廣告",
+            "衡量與廣告相關的效能與互動",
+            "維持應用程式穩定性與效能",
+            "診斷崩潰與技術問題",
             "遵守法律義務"
           ]
         },
@@ -513,8 +516,8 @@ const TRANSLATIONS = {
           title: "資料共享",
           content: "我們不會出售您的個人資訊。我們可能會與以下對象共享資料：",
           items: [
+            "例如 Google AdMob 的廣告合作夥伴",
             "協助應用程式運營的服務提供商",
-            "廣告合作夥伴（Google AdMob）",
             "法律要求時的法律機構"
           ]
         },
