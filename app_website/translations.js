@@ -12,9 +12,35 @@ const TRANSLATIONS = {
       downloadOn: "Download on the",
       getItOn: "Get it on"
     },
+    hero: {
+      badge: "Built for Sushiro visits",
+      launch: "Now on the App Store",
+      highlights: [
+        { title: "Fast bill split", desc: "Track plates and totals in seconds" },
+        { title: "Service charge ready", desc: "See a more accurate final bill" },
+        { title: "Menu and queue info", desc: "Useful details before you pay" }
+      ],
+      trust: [
+        {
+          label: "Why it fits",
+          title: "Built for real Sushiro visits",
+          desc: "Focused on the exact moment people need help: splitting the bill."
+        },
+        {
+          label: "Submission Ready",
+          title: "Privacy, terms, and support links included",
+          desc: "Clear legal and support structure for App Store launch."
+        },
+        {
+          label: "Fast Utility",
+          title: "No spreadsheet, no awkward math",
+          desc: "See totals, service charge, and per-person cost in seconds."
+        }
+      ]
+    },
     features: {
-      title: "Powerful Features",
-      subtitle: "Everything you need for the perfect sushi experience"
+      title: "Built for Sushiro Visits",
+      subtitle: "Track plates, split the bill, and check useful info in one place"
     },
     footer: {
       links: "Quick Links",
@@ -56,8 +82,8 @@ const TRANSLATIONS = {
           content: "We do not sell your personal information. We may share data with:",
           items: [
             "Service providers who assist in app operations",
-            "Analytics services (Google Analytics, Firebase)",
-            "Advertising partners (Google AdMob) for personalized ads",
+            "Analytics services (Firebase)",
+            "Advertising partners (Google AdMob)",
             "Legal authorities when required by law"
           ]
         },
@@ -172,12 +198,12 @@ const TRANSLATIONS = {
           title: "Frequently Asked Questions",
           items: [
             {
-              q: "How do I use the calculator?",
-              a: "Simply tap on dishes to add them to your order. The app will automatically calculate the total price and track your spending."
+              q: "How do I use the bill split calculator?",
+              a: "Add plate prices as you order or eat. The app calculates the total, service charge, and per-person share for you."
             },
             {
-              q: "What are the premium features?",
-              a: "Premium features include ad-free experience, unlimited history, advanced statistics, and priority support."
+              q: "What does Premium remove?",
+              a: "Premium removes ads for a cleaner experience. Subscription availability and pricing are managed through the App Store."
             },
             {
               q: "How do I cancel my subscription?",
@@ -188,8 +214,8 @@ const TRANSLATIONS = {
               a: "Yes, we take data security seriously. All data is stored securely and we never sell your personal information."
             },
             {
-              q: "Can I use the app offline?",
-              a: "Yes, most features work offline. Your data will sync when you're back online."
+              q: "What else can I do besides splitting the bill?",
+              a: "You can also browse menu prices, check queue or store information, and share results with friends."
             }
           ]
         },
@@ -223,9 +249,35 @@ const TRANSLATIONS = {
       downloadOn: "ダウンロード",
       getItOn: "入手"
     },
+    hero: {
+      badge: "スシロー利用に合わせた設計",
+      launch: "App Storeで公開中",
+      highlights: [
+        { title: "すばやく割り勘", desc: "お皿と合計をすぐ整理" },
+        { title: "サービス料対応", desc: "より実際に近い会計金額" },
+        { title: "メニューと待ち情報", desc: "会計前に便利な情報を確認" }
+      ],
+      trust: [
+        {
+          label: "このアプリらしさ",
+          title: "実際のスシロー利用に合わせた設計",
+          desc: "必要になる場面にしぼって、割り勘をすばやく助けます。"
+        },
+        {
+          label: "申請向け",
+          title: "プライバシー・規約・サポートを整理",
+          desc: "App Store公開に必要な案内導線をわかりやすく用意しています。"
+        },
+        {
+          label: "すぐ使える",
+          title: "表計算も暗算も不要",
+          desc: "合計、サービス料、1人分を数秒で確認できます。"
+        }
+      ]
+    },
     features: {
-      title: "強力な機能",
-      subtitle: "完璧な寿司体験に必要なすべて"
+      title: "スシロー利用に合わせた機能",
+      subtitle: "お皿管理、割り勘、店舗確認をひとつにまとめました"
     },
     footer: {
       links: "クイックリンク",
@@ -267,8 +319,8 @@ const TRANSLATIONS = {
           content: "個人情報を販売することはありません。以下の場合にデータを共有することがあります：",
           items: [
             "アプリ運営を支援するサービスプロバイダー",
-            "分析サービス（Google Analytics、Firebase）",
-            "広告パートナー（Google AdMob）によるパーソナライズド広告",
+            "分析サービス（Firebase）",
+            "広告配信パートナー（Google AdMob）",
             "法律で要求される場合の法的機関"
           ]
         },
@@ -383,12 +435,12 @@ const TRANSLATIONS = {
           title: "よくある質問",
           items: [
             {
-              q: "計算機の使い方は？",
-              a: "料理をタップして注文に追加するだけです。アプリが自動的に合計金額を計算し、支出を追跡します。"
+              q: "割り勘計算はどう使いますか？",
+              a: "お皿の価格を追加していくだけで、合計金額、サービス料、1人あたりの金額を自動計算できます。"
             },
             {
-              q: "プレミアム機能とは？",
-              a: "プレミアム機能には、広告なし体験、無制限の履歴、高度な統計、優先サポートが含まれます。"
+              q: "Premium では何が変わりますか？",
+              a: "Premium では広告が非表示になり、より快適に利用できます。価格や提供状況は App Store で管理されます。"
             },
             {
               q: "サブスクリプションをキャンセルするには？",
@@ -399,8 +451,8 @@ const TRANSLATIONS = {
               a: "はい、データセキュリティを真剣に考えています。すべてのデータは安全に保存され、個人情報を販売することはありません。"
             },
             {
-              q: "オフラインで使用できますか？",
-              a: "はい、ほとんどの機能はオフラインで動作します。オンラインに戻るとデータが同期されます。"
+              q: "割り勘以外に何ができますか？",
+              a: "メニュー価格の確認、店舗や待ち時間のチェック、結果の共有などができます。"
             }
           ]
         },
@@ -434,9 +486,35 @@ const TRANSLATIONS = {
       downloadOn: "下載於",
       getItOn: "取得於"
     },
+    hero: {
+      badge: "專為壽司郎用餐打造",
+      launch: "現已於 App Store 上架",
+      highlights: [
+        { title: "快速分帳", desc: "餐盤與總額幾秒內整理好" },
+        { title: "服務費自動計算", desc: "更接近實際帳單金額" },
+        { title: "菜單與排隊資訊", desc: "結帳前先看清楚重要資訊" }
+      ],
+      trust: [
+        {
+          label: "為什麼適合",
+          title: "專為真實壽司郎用餐情境設計",
+          desc: "鎖定大家最需要的時刻：快速分帳。"
+        },
+        {
+          label: "上架準備",
+          title: "隱私、條款、支援連結都已整合",
+          desc: "提供更清楚的法律與支援導向，適合 App Store 上架。"
+        },
+        {
+          label: "快速實用",
+          title: "不用試算表，也不用尷尬心算",
+          desc: "幾秒內就能看見總額、服務費與每人分攤。"
+        }
+      ]
+    },
     features: {
-      title: "強大功能",
-      subtitle: "完美壽司體驗所需的一切"
+      title: "專為壽司郎用餐設計",
+      subtitle: "餐盤記錄、分帳、分店資訊一次整合"
     },
     footer: {
       links: "快速連結",
@@ -478,8 +556,8 @@ const TRANSLATIONS = {
           content: "我們不會出售您的個人資訊。我們可能會與以下對象共享資料：",
           items: [
             "協助應用程式運營的服務提供商",
-            "分析服務（Google Analytics、Firebase）",
-            "廣告合作夥伴（Google AdMob）用於個人化廣告",
+            "分析服務（Firebase）",
+            "廣告合作夥伴（Google AdMob）",
             "法律要求時的法律機構"
           ]
         },
@@ -594,12 +672,12 @@ const TRANSLATIONS = {
           title: "常見問題",
           items: [
             {
-              q: "如何使用計算機？",
-              a: "只需點擊菜餚即可將其添加到您的訂單中。應用程式將自動計算總價並追蹤您的支出。"
+              q: "如何使用分帳計算器？",
+              a: "加入餐盤價格後，應用程式會自動幫您計算總額、服務費和每人應付金額。"
             },
             {
-              q: "什麼是高級功能？",
-              a: "高級功能包括無廣告體驗、無限歷史記錄、進階統計和優先支援。"
+              q: "Premium 主要差別是什麼？",
+              a: "Premium 主要提供無廣告體驗，讓使用過程更乾淨流暢。價格與方案由 App Store 管理。"
             },
             {
               q: "如何取消訂閱？",
@@ -610,8 +688,8 @@ const TRANSLATIONS = {
               a: "是的，我們非常重視資料安全。所有資料都安全儲存，我們絕不會出售您的個人資訊。"
             },
             {
-              q: "可以離線使用應用程式嗎？",
-              a: "是的，大多數功能都可以離線使用。當您重新上線時，資料將會同步。"
+              q: "除了分帳之外還能做什麼？",
+              a: "您也可以查看菜單價格、分店與候位資訊，並快速分享分帳結果給朋友。"
             }
           ]
         },

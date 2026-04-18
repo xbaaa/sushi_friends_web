@@ -2,25 +2,25 @@
 const APP_CONFIG = {
   name: {
     en: "Sushiro Friends",
-    ja: "スシロー フレンズ",
-    zh: "壽司郎好友"
+    ja: "Sushiro Friends",
+    zh: "Sushiro Friends"
   },
   tagline: {
-    en: "Your Smart Dining Companion",
-    ja: "あなたのスマートダイニングパートナー",
-    zh: "您的智能用餐夥伴"
+    en: "Split Sushiro bills faster",
+    ja: "スシロー会計をもっと簡単に",
+    zh: "讓壽司郎分帳更簡單"
   },
   description: {
-    en: "Track your sushi orders, manage spending, and enjoy your Sushiro experience like never before.",
-    ja: "寿司の注文を追跡し、支出を管理し、これまでにないスシロー体験をお楽しみください。",
-    zh: "追蹤您的壽司訂單，管理支出，享受前所未有的壽司郎體驗。"
+    en: "Track plate prices, calculate totals, include service charge, and instantly see how much everyone should pay at Sushiro.",
+    ja: "お皿の価格を記録し、合計金額やサービス料を計算して、1人あたりの支払額をすぐ確認できます。",
+    zh: "快速記錄餐盤價格、計算總額與服務費，立即知道每個人在壽司郎應該付多少。"
   },
   bundleId: {
     ios: "com.inspirationhub.sushirofriends",
     android: "com.inspirationhub.sushirofriends"
   },
   storeLinks: {
-    ios: "https://apps.apple.com/app/id123456789",
+    ios: "https://apps.apple.com/app/id6738589084",
     android: "https://play.google.com/store/apps/details?id=com.inspirationhub.sushirofriends"
   },
   developer: {
@@ -37,22 +37,22 @@ const APP_CONFIG = {
   },
   features: {
     en: [
-      { icon: "fas fa-calculator", title: "Smart Calculator", desc: "Automatically track your order and total cost" },
-      { icon: "fas fa-chart-line", title: "Spending Insights", desc: "Visualize your dining habits and expenses" },
-      { icon: "fas fa-book-open", title: "Menu Browser", desc: "Browse full menu with prices and photos" },
-      { icon: "fas fa-gem", title: "Premium Features", desc: "Ad-free experience and advanced analytics" }
+      { icon: "fas fa-receipt", title: "Bill Split Calculator", desc: "Track plate prices and instantly calculate the total and per-person share" },
+      { icon: "fas fa-percent", title: "Service Charge Ready", desc: "Include service charge automatically for a more accurate final bill" },
+      { icon: "fas fa-book-open", title: "Menu & Prices", desc: "Browse menu items and prices while keeping your order organized" },
+      { icon: "fas fa-clock", title: "Queue & Store Info", desc: "Check store details and waiting information before or during your visit" }
     ],
     ja: [
-      { icon: "fas fa-calculator", title: "スマート計算機", desc: "注文と合計金額を自動追跡" },
-      { icon: "fas fa-chart-line", title: "支出インサイト", desc: "食事習慣と支出を視覚化" },
-      { icon: "fas fa-book-open", title: "メニューブラウザ", desc: "価格と写真付きの完全なメニューを閲覧" },
-      { icon: "fas fa-gem", title: "プレミアム機能", desc: "広告なし体験と高度な分析" }
+      { icon: "fas fa-receipt", title: "割り勘計算", desc: "お皿の価格を記録し、合計金額と1人あたりをすぐ確認" },
+      { icon: "fas fa-percent", title: "サービス料対応", desc: "サービス料を自動で含め、実際に近い会計金額を表示" },
+      { icon: "fas fa-book-open", title: "メニューと価格", desc: "メニュー価格を見ながら会計内容を整理しやすくします" },
+      { icon: "fas fa-clock", title: "待ち時間と店舗情報", desc: "来店前や食事中に店舗情報や待ち状況を確認できます" }
     ],
     zh: [
-      { icon: "fas fa-calculator", title: "智能計算器", desc: "自動追蹤您的訂單和總費用" },
-      { icon: "fas fa-chart-line", title: "支出洞察", desc: "視覺化您的用餐習慣和支出" },
-      { icon: "fas fa-book-open", title: "菜單瀏覽器", desc: "瀏覽完整菜單，包含價格和照片" },
-      { icon: "fas fa-gem", title: "高級功能", desc: "無廣告體驗和進階分析" }
+      { icon: "fas fa-receipt", title: "分帳計算器", desc: "快速記錄餐盤價格，立即算出總額與每人分攤" },
+      { icon: "fas fa-percent", title: "服務費自動計算", desc: "自動加入服務費，讓最後金額更貼近實際帳單" },
+      { icon: "fas fa-book-open", title: "菜單與價格", desc: "邊看菜單價格，邊整理點餐內容與結帳資訊" },
+      { icon: "fas fa-clock", title: "排隊與分店資訊", desc: "用餐前或用餐中都能快速查看分店與候位狀況" }
     ]
   },
   screenshots: [
@@ -61,6 +61,6 @@ const APP_CONFIG = {
     "assets/screenshot3.png",
     "assets/screenshot4.png"
   ],
-  lastUpdated: "2026-02-19",
+  lastUpdated: "2026-04-18",
   version: "1.0.0"
 };
