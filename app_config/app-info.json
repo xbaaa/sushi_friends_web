@@ -1,10 +1,51 @@
 {
   "social": {
+    "order": [
+      "threads",
+      "instagram",
+      "telegram",
+      "facebook",
+      "linkedin"
+    ],
     "threads": {
-      "username": "aba",
-      "url": "https://www.threads.net/@aba",
-      "displayName": "@aba"
+      "username": "sushirofriends",
+      "url": "https://www.threads.net/@sushirofriends",
+      "displayName": "@sushirofriends",
+      "icon": "at",
+      "color": "#111111"
+    },
+    "telegram": {
+      "username": "sushirofriends_channel",
+      "url": "https://t.me/sushirofriends_channel",
+      "displayName": "@sushirofriends_channel",
+      "icon": "send",
+      "color": "#229ED9"
+    },
+    "instagram": {
+      "username": "sushirofriends",
+      "url": "https://www.instagram.com/sushirofriends/",
+      "displayName": "@sushirofriends",
+      "icon": "instagram",
+      "color": "#E4405F"
+    },
+    "facebook": {
+      "username": "SushiroFriendsOfficial",
+      "url": "https://www.facebook.com/SushiroFriendsOfficial",
+      "displayName": "Sushiro Friends Official",
+      "icon": "facebook",
+      "color": "#1877F2"
+    },
+    "linkedin": {
+      "username": "sushiro-friends",
+      "url": "https://www.linkedin.com/company/sushiro-friends/",
+      "displayName": "Sushiro Friends",
+      "icon": "linkedin",
+      "color": "#0A66C2"
     }
+  },
+  "creator": {
+    "name": "Amiracle Studio",
+    "displayName": "by Amiracle Studio"
   },
   "myApps": [
     {
