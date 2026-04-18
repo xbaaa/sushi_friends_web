@@ -20,8 +20,8 @@ const APP_CONFIG = {
     android: "com.inspirationhub.sushirofriends"
   },
   storeLinks: {
-    ios: "https://apps.apple.com/app/id6738589084",
-    android: "https://play.google.com/store/apps/details?id=com.inspirationhub.sushirofriends"
+    ios: "",
+    android: ""
   },
   developer: {
     name: "Inspiration Hub",
