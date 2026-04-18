@@ -26,7 +26,7 @@
       "id": "hk-bus-tracker",
       "name": {
         "en": "HK Bus Tracker",
-        "zh-HK": "香港巴士追蹤  器",
+        "zh-HK": "香港巴士追蹤器",
         "ja": "香港バストラッカー"
       },
       "description": {
@@ -39,6 +39,21 @@
         "ios": "https://apps.apple.com/app/hk-bus-tracker/id123456789",
         "android": "https://play.google.com/store/apps/details?id=com.example.hkbustracker"
       }
+    },
+    {
+      "id": "esp32-product-example",
+      "name": {
+        "en": "ESP32 Smart Product",
+        "zh-HK": "ESP32 智能產品",
+        "ja": "ESP32 スマート製品"
+      },
+      "description": {
+        "en": "A hardware product page with setup, specs, and ordering details.",
+        "zh-HK": "可查看產品介紹、規格、設定方式與購買資訊的硬件產品頁面。",
+        "ja": "製品紹介、仕様、セットアップ方法、購入案内を掲載したハードウェア製品ページです。"
+      },
+      "icon": "🔌",
+      "website": "https://example.com/esp32-product"
     }
   ],
   "features": {
