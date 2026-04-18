@@ -82,7 +82,6 @@ const TRANSLATIONS = {
           content: "We do not sell your personal information. We may share data with:",
           items: [
             "Service providers who assist in app operations",
-            "Analytics services (Firebase)",
             "Advertising partners (Google AdMob)",
             "Legal authorities when required by law"
           ]
@@ -105,9 +104,7 @@ const TRANSLATIONS = {
           title: "Third-Party Services",
           content: "Our app uses the following third-party services:",
           items: [
-            "Google AdMob - for advertising",
-            "RevenueCat - for subscription management",
-            "Firebase Analytics - for app analytics"
+            "Google AdMob - for advertising"
           ]
         },
         children: {
@@ -145,16 +142,6 @@ const TRANSLATIONS = {
             "Attempt to gain unauthorized access to our systems",
             "Interfere with the proper functioning of the app",
             "Remove any copyright or proprietary notices"
-          ]
-        },
-        subscription: {
-          title: "Subscription and Payments",
-          content: "Premium features require a subscription. Subscriptions are managed through the App Store or Google Play Store and are subject to their terms and conditions.",
-          items: [
-            "Subscriptions auto-renew unless cancelled",
-            "Cancellation must be done through your app store account",
-            "Refunds are subject to App Store/Google Play policies",
-            "Prices may change with notice"
           ]
         },
         content: {
@@ -200,14 +187,6 @@ const TRANSLATIONS = {
             {
               q: "How do I use the bill split calculator?",
               a: "Add plate prices as you order or eat. The app calculates the total, service charge, and per-person share for you."
-            },
-            {
-              q: "What does Premium remove?",
-              a: "Premium removes ads for a cleaner experience. Subscription availability and pricing are managed through the App Store."
-            },
-            {
-              q: "How do I cancel my subscription?",
-              a: "Go to your device's App Store or Google Play Store settings, find your subscriptions, and cancel from there."
             },
             {
               q: "Is my data safe?",
@@ -319,7 +298,6 @@ const TRANSLATIONS = {
           content: "個人情報を販売することはありません。以下の場合にデータを共有することがあります：",
           items: [
             "アプリ運営を支援するサービスプロバイダー",
-            "分析サービス（Firebase）",
             "広告配信パートナー（Google AdMob）",
             "法律で要求される場合の法的機関"
           ]
@@ -342,9 +320,7 @@ const TRANSLATIONS = {
           title: "サードパーティサービス",
           content: "当アプリは以下のサードパーティサービスを使用しています：",
           items: [
-            "Google AdMob - 広告配信",
-            "RevenueCat - サブスクリプション管理",
-            "Firebase Analytics - アプリ分析"
+            "Google AdMob - 広告配信"
           ]
         },
         children: {
@@ -382,16 +358,6 @@ const TRANSLATIONS = {
             "システムへの不正アクセスの試み",
             "アプリの適切な機能の妨害",
             "著作権または所有権表示の削除"
-          ]
-        },
-        subscription: {
-          title: "サブスクリプションと支払い",
-          content: "プレミアム機能にはサブスクリプションが必要です。サブスクリプションはApp StoreまたはGoogle Play Storeを通じて管理され、それらの利用規約に従います。",
-          items: [
-            "サブスクリプションはキャンセルされない限り自動更新されます",
-            "キャンセルはアプリストアアカウントから行う必要があります",
-            "返金はApp Store/Google Playのポリシーに従います",
-            "価格は通知により変更される場合があります"
           ]
         },
         content: {
@@ -437,14 +403,6 @@ const TRANSLATIONS = {
             {
               q: "割り勘計算はどう使いますか？",
               a: "お皿の価格を追加していくだけで、合計金額、サービス料、1人あたりの金額を自動計算できます。"
-            },
-            {
-              q: "Premium では何が変わりますか？",
-              a: "Premium では広告が非表示になり、より快適に利用できます。価格や提供状況は App Store で管理されます。"
-            },
-            {
-              q: "サブスクリプションをキャンセルするには？",
-              a: "デバイスのApp StoreまたはGoogle Play Storeの設定に移動し、サブスクリプションを見つけてキャンセルしてください。"
             },
             {
               q: "データは安全ですか？",
@@ -556,7 +514,6 @@ const TRANSLATIONS = {
           content: "我們不會出售您的個人資訊。我們可能會與以下對象共享資料：",
           items: [
             "協助應用程式運營的服務提供商",
-            "分析服務（Firebase）",
             "廣告合作夥伴（Google AdMob）",
             "法律要求時的法律機構"
           ]
@@ -579,9 +536,7 @@ const TRANSLATIONS = {
           title: "第三方服務",
           content: "我們的應用程式使用以下第三方服務：",
           items: [
-            "Google AdMob - 用於廣告",
-            "RevenueCat - 用於訂閱管理",
-            "Firebase Analytics - 用於應用程式分析"
+            "Google AdMob - 用於廣告"
           ]
         },
         children: {
@@ -619,16 +574,6 @@ const TRANSLATIONS = {
             "嘗試未經授權存取我們的系統",
             "干擾應用程式的正常運作",
             "移除任何版權或專有權聲明"
-          ]
-        },
-        subscription: {
-          title: "訂閱和付款",
-          content: "高級功能需要訂閱。訂閱透過App Store或Google Play商店管理，並受其條款和條件約束。",
-          items: [
-            "訂閱會自動續訂，除非取消",
-            "取消必須透過您的應用商店帳戶完成",
-            "退款受App Store/Google Play政策約束",
-            "價格可能會在通知後變更"
           ]
         },
         content: {
@@ -674,14 +619,6 @@ const TRANSLATIONS = {
             {
               q: "如何使用分帳計算器？",
               a: "加入餐盤價格後，應用程式會自動幫您計算總額、服務費和每人應付金額。"
-            },
-            {
-              q: "Premium 主要差別是什麼？",
-              a: "Premium 主要提供無廣告體驗，讓使用過程更乾淨流暢。價格與方案由 App Store 管理。"
-            },
-            {
-              q: "如何取消訂閱？",
-              a: "前往您裝置的App Store或Google Play商店設定，找到您的訂閱並從那裡取消。"
             },
             {
               q: "我的資料安全嗎？",
